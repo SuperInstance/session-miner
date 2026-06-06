@@ -3,6 +3,8 @@ name = "session-miner"
 version = "0.1.0"
 edition = "2024"
 description = "Mine OpenClaw session transcripts for behavioral patterns and automation recommendations"
+license = "MIT"
+repository = "https://github.com/SuperInstance/session-miner"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
