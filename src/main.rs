@@ -1,8 +1,4 @@
-mod jsonl;
-mod models;
-mod cache;
-mod analysis;
-mod output;
+use session_miner::{analysis, cache, jsonl, models, output};
 
 use anyhow::{Context, Result};
 use clap::{Parser, Subcommand};
